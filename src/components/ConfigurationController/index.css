@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.top-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  color: #ffffff;
+  height: 200px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-container {
+    height: 300px;
+    padding-left: 100px;
+  }
+}
+
+.top-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .top-heading {
+    font-size: 40px;
+  }
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  line-height: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox-container {
+    line-height: 2.5;
+  }
+}
+
+.input-checkbox {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-checkbox {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.label {
+  font-size: 16px;
+  margin-left: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 22px;
+  }
+}

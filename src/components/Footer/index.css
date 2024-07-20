@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    height: 150px;
+    margin-top: 20px;
+  }
+}
+
+.footer-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-heading {
+    font-size: 60px;
+    font-weight: bold;
+  }
+}

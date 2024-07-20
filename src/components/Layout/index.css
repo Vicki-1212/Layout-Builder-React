@@ -1,0 +1,14 @@
+.layout-container {
+  padding: 15px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-container {
+    padding: 30px;
+  }
+}
